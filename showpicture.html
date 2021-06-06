@@ -35,20 +35,22 @@
 			}
 		</style>
 	</head>
-	<body>
-		<font>
-		
+	<body>		
+		<audio src="music/我乐意.mp3" hidden="true" autoplay="true" loop="true"></audio>						
+		<font size = "5">	
+			<br /><a href="index.html">回到主页</a>   
 		</font>
-	
-		<audio src="music/爱江山更爱美人.mp3" hidden="true" autoplay="true" loop="true"></audio>
-
-		<div class="box">
-			<img id="pic" src="img/5.jpg" />
+		<div class="box">								
+			<img id="pic" src="img/5.jpg"/>					
 		</div>
-		<div>
-				<input type="button" class="btn"  value="上一张"/>
-				<input type="button" class="btn" value="下一张" />
-			</div>
+		<div>			
+			<input type="button" class="btn"  value="上一张"/>
+			<input type="button" class="btn" value="下一张" />
+		</div>
+		<div style="float:center;">
+			
+		</div>
+		
 		<script>
 			var pic=document.getElementById("pic");
 			var preBtn=document.getElementsByClassName("btn")[0];
